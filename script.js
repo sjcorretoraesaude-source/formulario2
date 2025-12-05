@@ -1,7 +1,7 @@
 // Inicializar EmailJS
 (function() {
     // Substitua com seu User ID do EmailJS
-    emailjs.init("SEU_USER_ID_AQUI");
+    emailjs.init("Y69DI_mk0oePwuokD");
 })();
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Enviar o email usando EmailJS
         // Substitua os IDs abaixo com seus IDs do EmailJS
-        emailjs.send('SEU_SERVICE_ID', 'SEU_TEMPLATE_ID', templateParams)
+        emailjs.send('service_f1sgv6s', 'template_rqer24c', templateParams)
             .then(function(response) {
                 console.log('SUCCESS!', response.status, response.text);
                 statusDiv.textContent = 'Mensagem enviada com sucesso!';
